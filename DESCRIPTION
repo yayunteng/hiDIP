@@ -1,11 +1,28 @@
 Package: hiDIP
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
+Title: Hierachical Decomposition Partitioning
+Version: 1.0.1
+Author: Anne Chao, Jian-You Lin
+Maintainer: Anne Chao <chao@stat.nthu.edu.tw>
+Description: Provides functions for hierachical diversity analysis.
+License: GPL (>= 3)
+Depends:
+    R (>= 4.0)
+Suggests: knitr,
+    rmarkdown,
+    ggpubr
+Imports:
+    Rcpp,
+    dplyr,
+    ggplot2,
+    ape,
+    data.tree,
+    ade4,
+    phytools,
+    reshape2,
+    networkD3,
+    maps
 LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.2.1
+LinkingTo: Rcpp
